@@ -1,0 +1,28 @@
+Case,Problem_Size,Mode,Rep,Time
+S01 K-means MNIST k=10,60000,scan,1,2.952171
+S01 K-means MNIST k=10,60000,track,1,2.669384
+S01 K-means MNIST k=10,60000,off,1,2.660403
+S01 K-means MNIST k=10,60000,scan,2,2.952303
+S01 K-means MNIST k=10,60000,track,2,2.666999
+S01 K-means MNIST k=10,60000,off,2,2.657639
+S01 K-means MNIST k=10,60000,scan,3,2.956205
+S01 K-means MNIST k=10,60000,track,3,2.661839
+S01 K-means MNIST k=10,60000,off,3,2.664050
+S02 k-NN 1000 queries,60000,scan,1,0.730488
+S02 k-NN 1000 queries,60000,track,1,0.702712
+S02 k-NN 1000 queries,60000,off,1,0.702126
+S02 k-NN 1000 queries,60000,scan,2,0.724718
+S02 k-NN 1000 queries,60000,track,2,0.715817
+S02 k-NN 1000 queries,60000,off,2,0.699662
+S02 k-NN 1000 queries,60000,scan,3,0.741451
+S02 k-NN 1000 queries,60000,track,3,0.703380
+S02 k-NN 1000 queries,60000,off,3,0.700778
+S03 preprocessing,60000,scan,1,5.687455
+S03 preprocessing,60000,track,1,5.173800
+S03 preprocessing,60000,off,1,5.231439
+S03 preprocessing,60000,scan,2,5.781881
+S03 preprocessing,60000,track,2,5.225503
+S03 preprocessing,60000,off,2,5.208309
+S03 preprocessing,60000,scan,3,5.717071
+S03 preprocessing,60000,track,3,5.187877
+S03 preprocessing,60000,off,3,5.187181

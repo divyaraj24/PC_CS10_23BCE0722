@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="482.4pt" height="262.140387pt" viewBox="0 0 482.4 262.140387" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-31T08:21:55.623331</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 262.140387 
+L 482.4 262.140387 
+L 482.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 8.604 254.197166 
+L 473.796 254.197166 
+L 473.796 7.943221 
+L 8.604 7.943221 
+L 8.604 254.197166 
+z
+" clip-path="url(#pe53b58e781)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 8.604 23.04 
+L 473.796 23.04 
+L 473.796 7.943221 
+L 8.604 7.943221 
+z
+" clip-path="url(#pe53b58e781)" style="fill: #d9d9d9; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle" x="241.2" y="16.938633" transform="rotate(-0 241.2 16.938633)">zsh - cs10: memory-sampler diagnostic (results/sampler_diagnostic_log.txt)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="32.075219" transform="rotate(-0 14.22 32.075219)">$ python analysis/sampler_diagnostic.py --size 60000 --repeats 3</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="39.792108" transform="rotate(-0 14.22 39.792108)">S01 K-means MNIST k=10       scan  rep1 2.952s</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="47.817121" transform="rotate(-0 14.22 47.817121)">S01 K-means MNIST k=10       track rep1 2.669s</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="55.842135" transform="rotate(-0 14.22 55.842135)">S01 K-means MNIST k=10       off   rep1 2.660s</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="63.867149" transform="rotate(-0 14.22 63.867149)">S01 K-means MNIST k=10       scan  rep2 2.952s</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="71.892163" transform="rotate(-0 14.22 71.892163)">S01 K-means MNIST k=10       track rep2 2.667s</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="79.917177" transform="rotate(-0 14.22 79.917177)">S01 K-means MNIST k=10       off   rep2 2.658s</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="87.942191" transform="rotate(-0 14.22 87.942191)">S01 K-means MNIST k=10       scan  rep3 2.956s</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="95.967204" transform="rotate(-0 14.22 95.967204)">S01 K-means MNIST k=10       track rep3 2.662s</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="103.992218" transform="rotate(-0 14.22 103.992218)">S01 K-means MNIST k=10       off   rep3 2.664s</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="112.017232" transform="rotate(-0 14.22 112.017232)">S02 k-NN 1000 queries        scan  rep1 0.730s</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="120.042246" transform="rotate(-0 14.22 120.042246)">S02 k-NN 1000 queries        track rep1 0.703s</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="128.06726" transform="rotate(-0 14.22 128.06726)">S02 k-NN 1000 queries        off   rep1 0.702s</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="136.092273" transform="rotate(-0 14.22 136.092273)">S02 k-NN 1000 queries        scan  rep2 0.725s</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="144.117287" transform="rotate(-0 14.22 144.117287)">S02 k-NN 1000 queries        track rep2 0.716s</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="152.142301" transform="rotate(-0 14.22 152.142301)">S02 k-NN 1000 queries        off   rep2 0.700s</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="160.167315" transform="rotate(-0 14.22 160.167315)">S02 k-NN 1000 queries        scan  rep3 0.741s</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="168.192329" transform="rotate(-0 14.22 168.192329)">S02 k-NN 1000 queries        track rep3 0.703s</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="176.217343" transform="rotate(-0 14.22 176.217343)">S02 k-NN 1000 queries        off   rep3 0.701s</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="184.242356" transform="rotate(-0 14.22 184.242356)">S03 preprocessing            scan  rep1 5.687s</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="192.26737" transform="rotate(-0 14.22 192.26737)">S03 preprocessing            track rep1 5.174s</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="200.292384" transform="rotate(-0 14.22 200.292384)">S03 preprocessing            off   rep1 5.231s</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="208.317398" transform="rotate(-0 14.22 208.317398)">S03 preprocessing            scan  rep2 5.782s</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="216.342412" transform="rotate(-0 14.22 216.342412)">S03 preprocessing            track rep2 5.226s</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="224.367426" transform="rotate(-0 14.22 224.367426)">S03 preprocessing            off   rep2 5.208s</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="232.392439" transform="rotate(-0 14.22 232.392439)">S03 preprocessing            scan  rep3 5.717s</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="240.417453" transform="rotate(-0 14.22 240.417453)">S03 preprocessing            track rep3 5.188s</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.8px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="248.442467" transform="rotate(-0 14.22 248.442467)">S03 preprocessing            off   rep3 5.187s</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe53b58e781">
+   <rect x="7.2" y="7.2" width="468" height="247.740387"/>
+  </clipPath>
+ </defs>
+</svg>

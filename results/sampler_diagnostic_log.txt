@@ -1,0 +1,27 @@
+S01 K-means MNIST k=10       scan  rep1 2.952s
+S01 K-means MNIST k=10       track rep1 2.669s
+S01 K-means MNIST k=10       off   rep1 2.660s
+S01 K-means MNIST k=10       scan  rep2 2.952s
+S01 K-means MNIST k=10       track rep2 2.667s
+S01 K-means MNIST k=10       off   rep2 2.658s
+S01 K-means MNIST k=10       scan  rep3 2.956s
+S01 K-means MNIST k=10       track rep3 2.662s
+S01 K-means MNIST k=10       off   rep3 2.664s
+S02 k-NN 1000 queries        scan  rep1 0.730s
+S02 k-NN 1000 queries        track rep1 0.703s
+S02 k-NN 1000 queries        off   rep1 0.702s
+S02 k-NN 1000 queries        scan  rep2 0.725s
+S02 k-NN 1000 queries        track rep2 0.716s
+S02 k-NN 1000 queries        off   rep2 0.700s
+S02 k-NN 1000 queries        scan  rep3 0.741s
+S02 k-NN 1000 queries        track rep3 0.703s
+S02 k-NN 1000 queries        off   rep3 0.701s
+S03 preprocessing            scan  rep1 5.687s
+S03 preprocessing            track rep1 5.174s
+S03 preprocessing            off   rep1 5.231s
+S03 preprocessing            scan  rep2 5.782s
+S03 preprocessing            track rep2 5.226s
+S03 preprocessing            off   rep2 5.208s
+S03 preprocessing            scan  rep3 5.717s
+S03 preprocessing            track rep3 5.188s
+S03 preprocessing            off   rep3 5.187s

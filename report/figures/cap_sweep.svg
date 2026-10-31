@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="482.4pt" height="201.024pt" viewBox="0 0 482.4 201.024" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-31T08:21:54.531834</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 201.024 
+L 482.4 201.024 
+L 482.4 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 8.604 193.264128 
+L 473.796 193.264128 
+L 473.796 7.759872 
+L 8.604 7.759872 
+L 8.604 193.264128 
+z
+" clip-path="url(#p6b4646270b)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 8.604 23.04 
+L 473.796 23.04 
+L 473.796 7.759872 
+L 8.604 7.759872 
+z
+" clip-path="url(#p6b4646270b)" style="fill: #d9d9d9; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle" x="241.2" y="16.938633" transform="rotate(-0 241.2 16.938633)">zsh - cs10: final benchmark sweep (excerpt of results/run_log.txt)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="32.071031" transform="rotate(-0 14.22 32.071031)">$ python run_all.py --mem-sampler track</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="40.713653" transform="rotate(-0 14.22 40.713653)">sizes=[10000, 30000, 60000] workers=[1, 2, 4, 8] -&gt; results/raw.csv</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="49.289915" transform="rotate(-0 14.22 49.289915)">...</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="57.900084" transform="rotate(-0 14.22 57.900084)">[S02] train=60000 queries=10000 k=5</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="66.542706" transform="rotate(-0 14.22 66.542706)">  S02 q10000 n60000 -sequential-w1-r1    6.885s  mem=  398.4MB</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="75.15239" transform="rotate(-0 14.22 75.15239)">  S02 q10000 n60000 -sequential-w1-r2    6.888s  mem=  398.4MB</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="83.762074" transform="rotate(-0 14.22 83.762074)">  S02 q10000 n60000 -sequential-w1-r3    6.880s  mem=  398.4MB</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="92.371758" transform="rotate(-0 14.22 92.371758)">  S02 q10000 n60000 -sequential-w1-r4    6.885s  mem=  398.4MB</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="100.981442" transform="rotate(-0 14.22 100.981442)">  S02 q10000 n60000 -sequential-w1-r5    6.879s  mem=  398.4MB</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="109.557705" transform="rotate(-0 14.22 109.557705)">  ...</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="118.200811" transform="rotate(-0 14.22 118.200811)">  S02 q10000 n60000 /train-partitioned-multiprocessing-w8-r1  2.077s  mem= 1407.1MB</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="126.810495" transform="rotate(-0 14.22 126.810495)">  S02 q10000 n60000 /train-partitioned-multiprocessing-w8-r2  2.086s  mem= 1406.2MB</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="135.420179" transform="rotate(-0 14.22 135.420179)">  S02 q10000 n60000 /train-partitioned-multiprocessing-w8-r3  2.049s  mem= 1408.6MB</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="144.029863" transform="rotate(-0 14.22 144.029863)">  S02 q10000 n60000 /train-partitioned-multiprocessing-w8-r4  2.099s  mem= 1407.8MB</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="152.639548" transform="rotate(-0 14.22 152.639548)">  S02 q10000 n60000 /train-partitioned-multiprocessing-w8-r5  2.143s  mem= 1407.7MB</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="161.21581" transform="rotate(-0 14.22 161.21581)">  ...</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="169.825979" transform="rotate(-0 14.22 169.825979)">== s03 done in 356.9s</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="178.4686" transform="rotate(-0 14.22 178.4686)">phase times (s): {'s01': 206.8, 's02': 784.8, 's03': 356.9} total: 1348.5</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="187.045347" transform="rotate(-0 14.22 187.045347)">exit=0</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6b4646270b">
+   <rect x="7.2" y="7.2" width="468" height="186.624"/>
+  </clipPath>
+ </defs>
+</svg>

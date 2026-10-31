@@ -1,0 +1,27 @@
+=== Pre-flight check #1 (before final sweep) ===
+Timestamp            : 2026-10-19 11:38:56 IST
+Power                : on AC (stated by user; not re-checked)
+GUI apps running     : Finder, ghostty (this session's terminal) -> none quit (nothing else open)
+Low power mode       : 0 (off)
+top (2nd sample, after 30 s idle wait): CPU 3.18% user, 3.65% sys, 93.16% idle; load avg 2.69 / 3.00 / 3.13
+  above ~3%: spotlightknowledged 13.0%, WindowServer 10.4%, kernel_task 5.8%, top 5.1% (the sampler itself),
+             claude 4.8% (this session), com.apple.AppleU* 3.0%
+  memory: 6443M used (1253M compressor), 1189M unused of 8 GB
+Status               : spotlightknowledged (Spotlight) active -> sweep held for user go-ahead
+
+=== Pre-flight check #2 (user chose: wait ~2 min, re-check, then go) ===
+Timestamp            : 2026-10-19 11:43:50 IST
+top (2nd sample): CPU 1.6% user, 1.64% sys, 97.29% idle; load avg 1.46 / 2.00 / 2.62
+  spotlightknowledged no longer in top 12 (Spotlight quiet)
+  above ~3%: top 5.5% (the sampler itself), kernel_task 3.0%, rapportd 3.0%
+  memory: 6628M used (1199M compressor), 1002M unused; memory_pressure: 65% free;
+          swap used 2739M of 4096M (pre-existing)
+  com.apple.Virtualization.VirtualMachine (PID 38930, up ~10 h, 0% CPU) shows 5.1 GB in top's MEM
+          column, but its actual RSS is 336 MB (reserved guest memory) -> left running
+Low power mode       : 0 (off)
+Memory sampler       : "track" mode for the final sweep (user decision); the original "scan" sampler
+                       cost 3.16 ms per 20 ms sample in the parent process (measured), see
+                       results/sampler_diagnostic.csv
+Status               : GO
+Note (11:46): the Virtualization.framework VM (PID 38930) is Colima, the Docker runtime (~/.colima). It sat at
+              0.0% CPU / 345 MB RSS during the sweep start; it was left running rather than stopped mid-sweep.

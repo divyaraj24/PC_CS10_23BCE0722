@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="482.4pt" height="107.568pt" viewBox="0 0 482.4 107.568" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-31T08:21:55.378304</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 107.568 
+L 482.4 107.568 
+L 482.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 8.604 100.088496 
+L 473.796 100.088496 
+L 473.796 7.479504 
+L 8.604 7.479504 
+L 8.604 100.088496 
+z
+" clip-path="url(#pae387d149a)" style="fill: none; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 8.604 23.04 
+L 473.796 23.04 
+L 473.796 7.479504 
+L 8.604 7.479504 
+z
+" clip-path="url(#pae387d149a)" style="fill: #d9d9d9; stroke: #000000; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle" x="241.2" y="16.938633" transform="rotate(-0 241.2 16.938633)">zsh - cs10: correctness log and analysis</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="32.400406" transform="rotate(-0 14.22 32.400406)">$ awk -F, 'NR&gt;1{c[$9]++} END{for(k in c) print "Passed="k, c[k]}' results/correctness.csv</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="40.837031" transform="rotate(-0 14.22 40.837031)">Passed=True 1854</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="49.603031" transform="rotate(-0 14.22 49.603031)">$ wc -l results/raw.csv</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="58.401969" transform="rotate(-0 14.22 58.401969)">841 results/raw.csv   (header + 840 timed runs)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="67.464406" transform="rotate(-0 14.22 67.464406)">$ python analysis/analyze.py</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="75.933969" transform="rotate(-0 14.22 75.933969)">wrote derived.csv (840 rows), config_stats.csv (168), summary_table.csv/.md</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="84.996406" transform="rotate(-0 14.22 84.996406)">$ python analysis/findings.py</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="14.22" y="93.465969" transform="rotate(-0 14.22 93.465969)">wrote findings.md (17 anomalies flagged)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pae387d149a">
+   <rect x="7.2" y="7.2" width="468" height="93.168"/>
+  </clipPath>
+ </defs>
+</svg>

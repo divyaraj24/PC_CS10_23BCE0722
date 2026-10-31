@@ -1,0 +1,38 @@
+# Summary table (CS10, 23BCE0722)
+
+Times are means of 5 timed runs (1 warm-up discarded). Speedup baseline: pure sequential implementation (no Pool) at the same problem size. Compute speedup excludes Scheduling_Time (Pool/process start-up, shutdown, dispatch). Efficiency = speedup / workers. Variant = parallel model, or the k-NN strategy for S02.
+
+## S01_KMeans
+
+| Workload | Dataset | Problem_Size | Algorithm | Seq_Time_s | SeqChunked_Time_s | Best_Time_s | Best_Time_Config | Best_Speedup | Best_Speedup_Config | Best_Compute_Speedup | Best_Compute_Speedup_Config | Speedup@8 multiprocessing | ComputeSpeedup@8 multiprocessing | Efficiency@8 multiprocessing |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S01_KMeans | Blobs64d | 10000 | KMeans-Lloyd-k10 | 0.0335 | 0.0341 | 0.0335 | sequential w=1 | 0.263 | multiprocessing w=2 | 1.663 | multiprocessing w=4 | 0.162 | 0.853 | 0.02 |
+| S01_KMeans | Blobs64d | 30000 | KMeans-Lloyd-k10 | 0.1084 | 0.1091 | 0.1084 | sequential w=1 | 0.656 | multiprocessing w=4 | 2.21 | multiprocessing w=4 | 0.465 | 1.621 | 0.058 |
+| S01_KMeans | Blobs64d | 60000 | KMeans-Lloyd-k10 | 0.1603 | 0.1607 | 0.1603 | sequential w=1 | 0.876 | multiprocessing w=4 | 2.217 | multiprocessing w=4 | 0.657 | 1.921 | 0.082 |
+| S01_KMeans | MNIST | 10000 | KMeans-Lloyd-k10 | 0.4135 | 0.4142 | 0.311 | multiprocessing w=4 | 1.33 | multiprocessing w=4 | 2.06 | multiprocessing w=4 | 1.089 | 1.792 | 0.136 |
+| S01_KMeans | MNIST | 30000 | KMeans-Lloyd-k10 | 1.1481 | 1.1608 | 0.6125 | multiprocessing w=4 | 1.875 | multiprocessing w=4 | 2.187 | multiprocessing w=8 | 1.816 | 2.187 | 0.227 |
+| S01_KMeans | MNIST | 30000 | KMeans-Lloyd-k20 | 1.3919 | 1.3968 | 0.7468 | multiprocessing w=4 | 1.864 | multiprocessing w=4 | 2.11 | multiprocessing w=8 | 1.824 | 2.11 | 0.228 |
+| S01_KMeans | MNIST | 30000 | KMeans-Lloyd-k5 | 0.8791 | 0.878 | 0.4969 | multiprocessing w=4 | 1.77 | multiprocessing w=4 | 2.074 | multiprocessing w=4 | 1.653 | 2.042 | 0.207 |
+| S01_KMeans | MNIST | 60000 | KMeans-Lloyd-k10 | 2.6625 | 2.6713 | 1.1608 | multiprocessing w=8 | 2.294 | multiprocessing w=8 | 2.441 | multiprocessing w=8 | 2.294 | 2.441 | 0.287 |
+
+## S02_kNN
+
+| Workload | Dataset | Problem_Size | Algorithm | Seq_Time_s | SeqChunked_Time_s | Best_Time_s | Best_Time_Config | Best_Speedup | Best_Speedup_Config | Best_Compute_Speedup | Best_Compute_Speedup_Config | Speedup@8 query-partitioned | ComputeSpeedup@8 query-partitioned | Efficiency@8 query-partitioned | Speedup@8 train-partitioned | ComputeSpeedup@8 train-partitioned | Efficiency@8 train-partitioned |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S02_kNN | MNIST-q1000 | 10000 | kNN-brute-k5 | 0.1217 | 0.1214 | 0.1214 | sequential-chunked w=1 | 0.684 | query-partitioned w=4 | 2.08 | query-partitioned w=4 | 0.515 | 1.864 | 0.064 | 0.514 | 1.795 | 0.064 |
+| S02_kNN | MNIST-q1000 | 30000 | kNN-brute-k5 | 0.3344 | 0.334 | 0.2908 | query-partitioned w=4 | 1.164 | train-partitioned w=4 | 2.176 | train-partitioned w=8 | 0.992 | 2.037 | 0.124 | 1.045 | 2.176 | 0.131 |
+| S02_kNN | MNIST-q1000 | 60000 | kNN-brute-k5 | 0.712 | 0.7213 | 0.4143 | train-partitioned w=8 | 1.719 | train-partitioned w=8 | 2.899 | train-partitioned w=8 | 1.441 | 2.22 | 0.18 | 1.719 | 2.899 | 0.215 |
+| S02_kNN | MNIST-q10000 | 10000 | kNN-brute-k5 | 1.2078 | 1.2096 | 0.5151 | query-partitioned w=8 | 2.345 | query-partitioned w=8 | 3.436 | query-partitioned w=8 | 2.345 | 3.436 | 0.293 | 2.077 | 2.929 | 0.26 |
+| S02_kNN | MNIST-q10000 | 30000 | kNN-brute-k5 | 3.3623 | 3.329 | 1.159 | query-partitioned w=8 | 2.902 | query-partitioned w=8 | 3.414 | query-partitioned w=8 | 2.902 | 3.414 | 0.363 | 2.706 | 3.137 | 0.338 |
+| S02_kNN | MNIST-q10000 | 60000 | kNN-brute-k5 | 6.8835 | 6.886 | 2.0905 | train-partitioned w=8 | 3.293 | train-partitioned w=8 | 3.58 | train-partitioned w=8 | 3.062 | 3.323 | 0.383 | 3.293 | 3.58 | 0.412 |
+| S02_kNN | MNIST-q5000 | 10000 | kNN-brute-k5 | 0.6085 | 0.6086 | 0.3572 | query-partitioned w=4 | 1.705 | query-partitioned w=4 | 3.158 | query-partitioned w=8 | 1.674 | 3.158 | 0.209 | 1.561 | 2.747 | 0.195 |
+| S02_kNN | MNIST-q5000 | 30000 | kNN-brute-k5 | 1.6597 | 1.6583 | 0.6981 | query-partitioned w=8 | 2.378 | query-partitioned w=8 | 3.139 | query-partitioned w=8 | 2.378 | 3.139 | 0.297 | 1.883 | 2.362 | 0.235 |
+| S02_kNN | MNIST-q5000 | 60000 | kNN-brute-k5 | 3.5403 | 3.5403 | 1.166 | train-partitioned w=8 | 3.037 | train-partitioned w=8 | 3.542 | train-partitioned w=8 | 2.721 | 3.143 | 0.34 | 3.037 | 3.542 | 0.38 |
+
+## S03_Preprocess
+
+| Workload | Dataset | Problem_Size | Algorithm | Seq_Time_s | SeqChunked_Time_s | Best_Time_s | Best_Time_Config | Best_Speedup | Best_Speedup_Config | Best_Compute_Speedup | Best_Compute_Speedup_Config | Speedup@8 pipeline | ComputeSpeedup@8 pipeline | Efficiency@8 pipeline | Speedup@8 stage-parallel | ComputeSpeedup@8 stage-parallel | Efficiency@8 stage-parallel |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| S03_Preprocess | MNIST | 10000 | load+norm+std+HOG | 0.8758 | 0.8692 | 0.4002 | stage-parallel w=4 | 2.188 | stage-parallel w=4 | 3.659 | stage-parallel w=8 | 1.734 | 1.87 | 0.217 | 2.077 | 3.659 | 0.26 |
+| S03_Preprocess | MNIST | 30000 | load+norm+std+HOG | 2.6157 | 2.609 | 0.8511 | stage-parallel w=8 | 3.074 | stage-parallel w=8 | 3.889 | stage-parallel w=8 | 2.867 | 3.01 | 0.358 | 3.074 | 3.889 | 0.384 |
+| S03_Preprocess | MNIST | 60000 | load+norm+std+HOG | 5.2613 | 5.2097 | 1.5185 | stage-parallel w=8 | 3.465 | stage-parallel w=8 | 3.936 | stage-parallel w=8 | 3.277 | 3.365 | 0.41 | 3.465 | 3.936 | 0.433 |
